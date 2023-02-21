@@ -1,0 +1,173 @@
+-- DROP DATABASE movies;
+CREATE DATABASE movies;
+USE movies;
+
+DROP TABLE netflix;
+CREATE TABLE netflix (
+       id INT PRIMARY KEY AUTO_INCREMENT,
+       title VARCHAR(255), 
+       product_type  VARCHAR(255),  
+       -- film_description VARCHAR(255), 
+       release_year INT, 
+       runtime INT, 
+       imdb_score FLOAT,
+
+       genre_crime BOOL,
+       genre_family BOOL,
+       genre_history BOOL,
+       genre_animation BOOL,
+       genre_western BOOL,
+       genre_music BOOL,
+       genre_war BOOL,
+       genre_romance BOOL,
+       genre_scifi BOOL,
+       genre_drama BOOL,
+       genre_sport BOOL,
+       genre_reality BOOL,
+       genre_thriller BOOL,
+       genre_action BOOL,
+       genre_comedy BOOL,
+       genre_documentation BOOL,
+       genre_european BOOL,
+       genre_horror BOOL,
+       genre_fantasy BOOL,
+       country_US BOOL,
+       country_IN BOOL,
+       country_GB BOOL,
+       country_JP BOOL,
+       country_FR BOOL,
+       country_KR BOOL,
+       country_CA BOOL,
+       country_ES BOOL,
+       country_DE BOOL,
+       country_MX BOOL
+); 
+
+-- DESCRIBE netflix;
+DROP TABLE hbo;
+CREATE TABLE hbo (
+       id INT PRIMARY KEY AUTO_INCREMENT,
+       title VARCHAR(255), 
+       product_type  VARCHAR(255),  
+       -- film_description VARCHAR(255), 
+       release_year INT, 
+       runtime INT, 
+       imdb_score FLOAT,
+
+       genre_crime BOOL,
+       genre_family BOOL,
+       genre_history BOOL,
+       genre_animation BOOL,
+       genre_western BOOL,
+       genre_music BOOL,
+       genre_war BOOL,
+       genre_romance BOOL,
+       genre_scifi BOOL,
+       genre_drama BOOL,
+       genre_sport BOOL,
+       genre_reality BOOL,
+       genre_thriller BOOL,
+       genre_action BOOL,
+       genre_comedy BOOL,
+       genre_documentation BOOL,
+       genre_european BOOL,
+       genre_horror BOOL,
+       genre_fantasy BOOL,
+       country_US BOOL,
+       country_IN BOOL,
+       country_GB BOOL,
+       country_JP BOOL,
+       country_FR BOOL,
+       country_KR BOOL,
+       country_CA BOOL,
+       country_ES BOOL,
+       country_DE BOOL,
+       country_MX BOOL
+); 
+
+DROP TABLE amazon;
+CREATE TABLE amazon (
+       id INT PRIMARY KEY AUTO_INCREMENT,
+       title VARCHAR(255), 
+       product_type  VARCHAR(255),  
+       -- film_description VARCHAR(255), 
+       release_year INT, 
+       runtime INT, 
+       imdb_score FLOAT,
+
+       genre_crime BOOL,
+       genre_family BOOL,
+       genre_history BOOL,
+       genre_animation BOOL,
+       genre_western BOOL,
+       genre_music BOOL,
+       genre_war BOOL,
+       genre_romance BOOL,
+       genre_scifi BOOL,
+       genre_drama BOOL,
+       genre_sport BOOL,
+       genre_reality BOOL,
+       genre_thriller BOOL,
+       genre_action BOOL,
+       genre_comedy BOOL,
+       genre_documentation BOOL,
+       genre_european BOOL,
+       genre_horror BOOL,
+       genre_fantasy BOOL,
+       country_US BOOL,
+       country_IN BOOL,
+       country_GB BOOL,
+       country_JP BOOL,
+       country_FR BOOL,
+       country_KR BOOL,
+       country_CA BOOL,
+       country_ES BOOL,
+       country_DE BOOL,
+       country_MX BOOL
+); 
+DESCRIBE amazon;
+
+DROP TABLE disney;
+CREATE TABLE disney (
+       id INT PRIMARY KEY AUTO_INCREMENT,
+       title VARCHAR(255), 
+       product_type  VARCHAR(255),  
+       -- film_description VARCHAR(255), 
+       release_year INT, 
+       runtime INT, 
+       imdb_score FLOAT,
+
+       genre_crime BOOL,
+       genre_family BOOL,
+       genre_history BOOL,
+       genre_animation BOOL,
+       genre_western BOOL,
+       genre_music BOOL,
+       genre_war BOOL,
+       genre_romance BOOL,
+       genre_scifi BOOL,
+       genre_drama BOOL,
+       genre_sport BOOL,
+       genre_reality BOOL,
+       genre_thriller BOOL,
+       genre_action BOOL,
+       genre_comedy BOOL,
+       genre_documentation BOOL,
+       genre_european BOOL,
+       genre_horror BOOL,
+       genre_fantasy BOOL,
+       country_US BOOL,
+       country_IN BOOL,
+       country_GB BOOL,
+       country_JP BOOL,
+       country_FR BOOL,
+       country_KR BOOL,
+       country_CA BOOL,
+       country_ES BOOL,
+       country_DE BOOL,
+       country_MX BOOL
+); 
+DESCRIBE disney;
+SHOW tables;
+
+SELECT * from netflix LIMIT 5; 
